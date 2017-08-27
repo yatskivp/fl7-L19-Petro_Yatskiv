@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    width: 455px;
+    margin: 0 auto;
+    background: url('img/mars.png') no-repeat;
+    color: #fff;
+}
+#wrapper{
+    padding: 35px 41px 0 41px;
+    text-align: center;
+}
+#wrapper h1 ~ div{
+    margin-top: 10px; 
+}
+#wrapper h1{
+    font-weight: 400;
+}
+#overwrap{
+    background-color: rgba(255,255,255,0.5);
+    display: none;
+}
+.info{
+    font-size: 8em;
+    font-weight: bold;
+}
+#update-information{
+    font-size: 19px;
+}
+#next{
+    margin-left: 10px;
+}
+#prev{
+    margin-right: 10px;
+}
+.def{
+    color:#fff;
+    cursor: pointer;
+}
+.undef{
+    display: none;
+}
